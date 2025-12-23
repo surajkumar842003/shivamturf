@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: #0d2036;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(to right, #0d2036, #1e3c72);
+    color: white;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #25d366;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.light-bg {
+    background: white;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Booking Table */
+.booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.booking-table th,
+.booking-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.booking-table th {
+    background: #0d2036;
+    color: white;
+}
+
+.note {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Facilities */
+.facility-list {
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+}
+
+.facility-list li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    background: #0d2036;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
