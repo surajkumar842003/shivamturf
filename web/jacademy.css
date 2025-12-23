@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #0d2036;
+    color: white;
+}
+
+/* Academy Section */
+.academy-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+.academy-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* SIDE-BY-SIDE LAYOUT */
+.academy-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Slider */
+.slider {
+    flex: 1;
+    min-width: 45%;
+    height: 280px;
+    background: #ddd; /* fallback */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.slide.active {
+    display: block;
+}
+
+/* Details */
+.details {
+    flex: 1;
+}
+
+.details h3 {
+    margin: 20px 0 10px;
+}
+
+.details ul {
+    margin-left: 20px;
+}
+
+.details li {
+    margin-bottom: 6px;
+}
+
+/* Join Button */
+.join-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 26px;
+    background: #0d2036;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* RESPONSIVE (Mobile Friendly) */
+@media (max-width: 900px) {
+    .academy-content {
+        flex-direction: column;
+    }
+
+    .slider {
+        height: 220px;
+    }
+
+    .slide {
+        height: 220px;
+    }
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0d2036;
+    color: white;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-btn {
+    background: #ff6b6b;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+}
+/* Footer */
+.footer {
+    background: #0d2036;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}

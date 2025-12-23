@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turf Town Clone</title>
+    <link rel="stylesheet" href="q1.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">
+        <a href="index.html" style="color:white; text-decoration:none;">
+            GAMING YARD TURF
+        </a>
+    </div>
+
+    <ul class="nav-links">
+        <!-- <li><a href="index.html">Home</a></li> -->
+        <li><a href="q1.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <button class="btn login-btn" onclick="window.location.href='login.html'">
+        Login
+    </button>
+</nav>
+
+
+    <!-- Hero Section -->
+    <!-- <header id="home" class="hero"> 
+        <h1>Find & Book Sports Venues Near You</h1>
+        <p>Discover football, cricket, badminton, basketball courts & more!</p>
+        <input type="search" id="searchInput" placeholder="Search city or sport..." oninput="filterVenues()" />
+    </header> -->
+
+    <!-- Venues Section -->
+   <section id="venues" class="venues-section">
+    <h2>Available Sports Venues</h2>
+
+    <div class="venues-container" id="venuesContainer">
+
+        <!-- Football Turf -->
+        <a href="footturf.html" class="venue-link">
+            <div class="venue-card" data-city="Patna" data-sport="Football">
+                <img src="images/football-artificial-turf.webp" alt="Football Turf">
+                <h3>Patna Football Turf</h3>
+                <p>Sport: Football</p>
+                <p>Location: Biscuit Factory Road, Near Winsome Empire</p>
+                <button class="btn book-btn">Book Now</button>
+            </div>
+        </a>
+
+        <!-- Badminton Court -->
+        <a href="jacademy.html" class="venue-link">
+            <div class="venue-card" data-city="Patna" data-sport="Training Acedemy">
+                <img src="images/badminton.jpg" alt="Acedemy">
+                <h3>Acedemy</h3>
+                <p>Sport: Cricket And Football</p>
+                <p>Location: Biscuit Factory Road, Near Winsome Empire</p>
+                <button class="btn book-btn">Join</button>
+            </div>
+        </a>
+
+        <!-- Cricket Ground -->
+        <a href="cricturf.html" class="venue-link">
+            <div class="venue-card" data-city="Patna" data-sport="Cricket">
+                <img src="images/turf-cricket-pitch.webp" alt="Cricket Ground">
+                <h3>Patna Cricket Ground</h3>
+                <p>Sport: Cricket</p>
+                <p>Location: Biscuit Factory Road, Near Winsome Empire</p>
+                <button class="btn book-btn">Book Now</button>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <footer class="footer">
+    <p>👤 Owner: Shivam Kumar</p>
+    <p>📞 Phone: +91 8789144385</p>
+    <p>📧 Email: shivamkr15may2002@gmail.com</p>
+    <p>© 2025 GAMING YARD TURF</p>
+</footer>
+</body>
+</html>
